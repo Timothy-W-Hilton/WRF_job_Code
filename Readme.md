@@ -26,6 +26,6 @@ specifies a [conda
 environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 with the dependencies of WRF_resubmit_tools.py.
 
-author: Timothy W. Hilton <twhilton@ucsc.edu>
-maintainer: Timothy W. Hilton <twhilton@ucsc.edu>
-license: [MIT license](https://opensource.org/licenses/MIT)
+author: Timothy W. Hilton <twhilton@ucsc.edu><BR>
+maintainer: Timothy W. Hilton <twhilton@ucsc.edu><BR>
+license: [MIT license](https://opensource.org/licenses/MIT)<BR>
