@@ -23,7 +23,7 @@ echo "PARENT_JOB_ID: ${PARENT_JOB_ID}"
 # ${PARENT_JOB_ID:=None} syntax puts "None" in PARENT_JOB_ID if it is unset
 # variable expansion syntax: see e.g. http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02
 echo "starting WRF_resubmit_tools.py"
-/global/homes/t/twhilton/.conda/envs/wrf_cori_compute/bin/python /global/homes/t/twhilton/Code/WRF_prepost_process/WRF_resubmit_tools.py --wrf_run_dir ${SLURM_SUBMIT_DIR} --parent_job_id ${PARENT_JOB_ID:=None} --default_wrf_timestep 200
+/global/homes/t/twhilton/.conda/envs/wrf_cori_compute/bin/python /global/homes/t/twhilton/Code/WRF_Job_Code/WRF_resubmit_tools.py --wrf_run_dir ${SLURM_SUBMIT_DIR} --parent_job_id ${PARENT_JOB_ID:=None} --default_wrf_timestep 200
 echo "done WRF_resubmit_tools.py"
 
 if [[ ${job_number} -lt ${job_number_max} ]]
