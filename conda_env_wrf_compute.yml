@@ -1,0 +1,13 @@
+name: wrf_cori_compute
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - netcdf4
+  - numpy
+  - pandas
+  - pip
+  - python=3.7* # wildcard allows most recent patch
+  - wrf-python
+  - pip:
+      - f90nml
